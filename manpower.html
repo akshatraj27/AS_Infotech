@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manpower Outsourcing || AS INFOTECH</title>
+    
+    <!-- Include all the existing CSS files -->
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendors/hiredots-icons/style.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/hiredots.css">
+
+    <style>
+        /* Add these styles to fix dropdown hover effects */
+
+        
+        .main-menu__list .dropdown ul li a {
+    font-size: 14px !important;
+    padding: 10px 15px !important;
+}
+
+        .main-menu__list li a[href="Manpower-outsource.html"] {
+    color: inherit !important;
+}
+.main-menu__list li a {
+    font-size: 16px !important;
+    font-family: 'Manrope', sans-serif !important;
+}
+
+
+        .dropdown ul li a:hover {
+            background-color: rgb(239, 233, 233) !important;
+            color: #f9feff !important;
+            padding-left: 25px !important;
+        }
+
+        /* Ensure dropdown background stays dark */
+        .dropdown ul {
+            background-color: #ffffff !important;
+        }
+
+        /* Force white text in dropdowns */
+        .dropdown ul li a {
+            color: #5a4949 !important;
+        }
+
+        /* Hover effect */
+        .dropdown ul li a:hover {
+            color: #3a1a1a !important;
+        }
+
+        /* Manpower Outsourcing specific styles */
+        .manpower-hero {
+            position: relative;
+            background: linear-gradient(rgba(11, 24, 42, 0.9), rgba(11, 24, 42, 0.9)), url(assets/images/backgrounds/manpower-bg.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 180px 0 100px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .service-card {
+            background: #fff;
+            border-radius: 15px;
+            padding: 40px 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+        }
+
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            background: rgba(0, 205, 229, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+        }
+
+        .service-icon i {
+            color: #00cde5;
+            font-size: 36px;
+        }
+
+        .service-title {
+            font-size: 24px;
+            color: #0b182a;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .service-text {
+            color: #666;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .benefits-section {
+            background: #f8f9fa;
+            padding: 100px 0;
+        }
+
+        .benefit-item {
+            background: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            height: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .benefit-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+
+        .benefit-icon {
+            width: 50px;
+            height: 50px;
+            min-width: 50px;
+            background: #00cde5;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .benefit-icon i {
+            color: #fff;
+            font-size: 20px;
+        }
+
+        .benefit-content h4 {
+            color: #0b182a;
+            font-size: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .benefit-content p {
+            color: #666;
+            font-size: 15px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        @media (max-width: 991px) {
+            .benefit-item {
+                padding: 25px;
+            }
+            
+            .benefit-content h4 {
+                font-size: 18px;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+
+</head>
+<body class="custom-cursor">
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+    <div class="preloader">
+        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+    </div>
+    
+    <div class="page-wrapper">
+        <div class="topbar-one topbar-one--two">
+            <div class="container-fluid">
+                <div class="topbar-one__inner">
+                    <ul class="list-unstyled topbar-one__info">
+                        <li class="topbar-one__info__item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="asinfotechskill@gmail.com">asinfotechskill@gmail.com</a>
+                        </li>
+                        <li class="topbar-one__info__item">
+                            <i class="fas fa-map-marker"></i>
+                            <a href="tel:++917289815525">Ghaziabad</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <header class="main-header main-header--two sticky-header sticky-header--normal">
+            <div class="main-header__inner">
+                <div class="main-header__logo">
+                    <a href="index-3.html">
+                        <img src="assets/images/logo.png" alt="AS Infotech" width="235">
+                    </a>
+                </div><!-- /.main-header__logo -->
+        
+                <div class="main-header__menu">
+                    <nav class="main-header__nav main-menu">
+                        <ul class="main-menu__list">
+                            <li class="dropdown">
+                                <a href="index-3.html">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="about.html">About Us</a>
+                                <ul>
+                                    <li><a href="company.html">Company profile</a></li>
+                                    <li><a href="vision.html">Vision </a></li>
+                                    <li><a href="mission.html">Mission</a></li>
+                                    <li><a href="team.html">Our Team</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="services.html">Services</a>
+                                <ul>
+                                    <li><a href="comphardware.html">Computer Hardware & Operating System Solution</a></li>
+                                    <li><a href="compnetworking.html">Computer Networking Solution</a></li>
+                                    <li><a href="cloudcomputing.html">Cloud Computing Solution</a></li>
+                                    <li><a href="cctv.html">CCTV Installation</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="clients.html">Clients</a></li>
+                            <li class="dropdown">
+                                <a href="manpower.html">Manpower Outsource</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="training.html">Training Partner</a>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav><!-- /.main-header__nav -->
+                </div>
+        
+                <div class="main-header__link">
+                    <a class="main-header__btn" href="contact.html">Book <br> Appointment</a>
+                </div>
+        
+                <!-- Mobile Navigation Button -->
+                <div class="mobile-nav__btn mobile-nav__toggler" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div><!-- /.mobile-nav__toggler -->
+            </div>
+        
+            <!-- Mobile Navigation Menu -->
+            <div class="mobile-nav">
+                <nav class="mobile-nav__menu">
+                    <ul>
+                        <li><a href="index-3.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="clients.html">Clients</a></li>
+                        <li><a href="manpower.html">Manpower Outsource</a></li>
+                        <li><a href="training.html">Training Partner</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <script>
+            function toggleMobileMenu() {
+        if (window.innerWidth <= 768) { // Only run on mobile view
+        document.querySelector('.mobile-nav').classList.toggle('open');
+        document.querySelector('.mobile-nav__toggler').classList.toggle('active');
+        }
+        }
+        
+        </script>
+
+        <!-- Manpower Hero Section -->
+        <section class="page-header">
+            <div class="manpower_bg" style="
+                background-size: cover;
+                background-position: center;
+            "></div>
+            <div class="container">
+                <h2 class="page-header__title">Manpower Outsourcing</h2>
+                
+            </div>
+        </section>
+        
+
+        <!-- Services Section -->
+        <section style="padding: 100px 0; background-color: #f8f9fa;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center" style="margin-bottom: 60px;">
+                        <h2 style="font-size: 36px; color: #0b182a;">Our Manpower Outsourcing Services</h2>
+                        <p style="color: #666; max-width: 700px; margin: 20px auto 0;">
+                            We connect businesses with highly skilled professionals, ensuring efficient workforce management.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Permanent Staffing -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card">
+                           
+                            <h3 class="service-title">Permanent Staffing</h3>
+                            <p class="service-text">
+                                We recruit top talent for long-term roles, helping you build a stable and efficient workforce.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Contract Staffing -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card">
+                            
+                            <h3 class="service-title">Contract Staffing</h3>
+                            <p class="service-text">
+                                Gain access to skilled professionals on a contract basis to handle project needs and workload spikes.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Technical Staffing -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card">
+                            
+                            <h3 class="service-title">Technical Staffing</h3>
+                            <p class="service-text">
+                                We specialize in hiring IT, networking, and cloud computing experts tailored to industry needs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <!-- Benefits Section -->
+        <section class="benefits-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center" style="margin-bottom: 60px;">
+                        <h2 style="font-size: 36px; color: #0b182a;">Why Choose AS Infotech for Manpower Outsourcing?</h2>
+                        <div style="width: 80px; height: 3px; background: #00cde5; margin: 20px auto 0;"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <div class="benefit-item">
+                            
+                            <div class="benefit-content">
+                                <h4>Industry Expertise</h4>
+                                <p>Years of experience in recruitment and outsourcing across multiple industries.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="benefit-item">
+                            
+                            <div class="benefit-content">
+                                <h4>Flexible Hiring Models</h4>
+                                <p>Choose from permanent, contract, or project-based hiring solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="benefit-item">
+                            
+                            <div class="benefit-content">
+                                <h4>Compliance & Payroll Handling</h4>
+                                <p>We manage payroll, benefits, and legal compliance for outsourced staff.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="benefit-item">
+                            
+                            <div class="benefit-content">
+                                <h4>Quick Turnaround</h4>
+                                <p>Rapid hiring solutions to meet urgent business demands.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+    <!-- Footer -->
+    
+    <footer class="main-footer background-black">
+        <div class="main-footer__bg" style="background-image: url(assets/images/backgrounds/footer-bg.jpg);"></div>
+        <!-- /.main-footer__bg -->
+        <div class="main-footer__subscribe">
+            <div class="container">
+                <div class="main-footer__subscribe__wrapper"></div>
+            </div>
+        </div>
+        <div class="main-footer__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xl-5">
+                        <div class="footer-widget footer-widget--about">
+                            <a href="index-2.html" class="footer-widget__logo">
+                                <img src="assets/images/logo.png" width="300" alt="AS Infotech">
+                            </a>
+                            <p class="footer-widget__text">Leading IT Solutions Provider specializing in hardware solutions, networking, cloud computing, and CCTV installation.</p>
+                            
+                        </div><!-- /.footer-widget -->
+                    </div><!-- /.col-md-6 -->
+                    <div class="col-md-6 col-xl-3">
+                        <div class="footer-widget footer-widget--links">
+                            <h2 class="footer-widget__title">Explore</h2><!-- /.footer-widget__title -->
+                            <ul class="list-unstyled footer-widget__links">
+                                <li><a href="about.html">About Company</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="manpower.html">Manpower Outsource</a></li>
+                                <li><a href="training.html">Training Partner</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul><!-- /.list-unstyled footer-widget__links -->
+                        </div><!-- /.footer-widget -->
+                    </div><!-- /.col-md-6 -->
+                    
+                    <div class="col-md-6 col-xl-3">
+                        <div class="footer-widget footer-widget--time">
+                            <h2 class="footer-widget__title">Contact</h2><!-- /.footer-widget__title -->
+                            <p class="footer-widget__text">SA-9 Shastri Nagar, <br>Ghaziabad, Uttar Pradesh</p>
+                            <!-- /.footer-widget__text -->
+                            <ul class="list-unstyled footer-widget__info">
+                                <li><i class="fas fa-envelope"></i> <a href="mailto:asinfotechskill@gmail.com">asinfotechskill@gmail.com</a></li>
+                                <li><i class="fas fa-phone-square"></i> <a href="tel:+ 917289815525">+ 917289815525</a></li>
+                            </ul><!-- /.list-unstyled -->
+                        </div><!-- /.footer-widget -->
+                    </div><!-- /.col-md-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.main-footer__top -->
+        <div class="main-footer__bottom">
+            <div class="container">
+                <div class="main-footer__bottom__inner">
+                    <div class="footer-widget__social">
+                        <a href="https://twitter.com/">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                        <a href="https://facebook.com/">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                        <a href="https://instagram.com/">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </div><!-- /.footer-widget__social -->
+                    <p class="main-footer__copyright">
+                        &copy; Copyright 2025 by AS Infotech Pvt. Ltd..
+                    </p>
+                </div><!-- /.main-footer__inner -->
+            </div><!-- /.container -->
+        </div><!-- /.main-footer__bottom -->
+    </footer><!-- /.main-footer -->
+
+</div><!-- /.page-wrapper -->
+    <div class="mobile-menu">
+        <div class="mobile-menu__overlay mobile-menu__toggler"></div>
+        <div class="mobile-menu__content">
+            <span class="mobile-menu__close mobile-menu__toggler">
+            </span>
+            <div class="mobile-menu__container"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="assets/js/hiredots.js"></script>
+</body>
+</html> 

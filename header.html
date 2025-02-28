@@ -1,0 +1,81 @@
+<header class="main-header main-header--two sticky-header sticky-header--normal">
+    <div class="main-header__inner">
+        <div class="main-header__logo">
+            <a href="index-3.html">
+                <img src="assets/images/logo.png" alt="AS Infotech" width="235">
+            </a>
+        </div><!-- /.main-header__logo -->
+
+        <div class="main-header__menu">
+            <nav class="main-header__nav main-menu">
+                <ul class="main-menu__list">
+                    <li class="dropdown">
+                        <a href="index-3.html">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="about.html">About Us</a>
+                        <ul>
+                            <li><a href="company.html">Company profile</a></li>
+                            <li><a href="vision.html">Vision </a></li>
+                            <li><a href="mission.html">Mission</a></li>
+                            <li><a href="team.html">Our Team</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="services.html">Services</a>
+                        <ul>
+                            <li><a href="comphardware.html">Computer Hardware & Operating System Solution</a></li>
+                            <li><a href="compnetworking.html">Computer Networking Solution</a></li>
+                            <li><a href="cloudcomputing.html">Cloud Computing Solution</a></li>
+                            <li><a href="cctv.html">CCTV Installation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="clients.html">Clients</a></li>
+                    <li class="dropdown">
+                        <a href="manpower.html">Manpower Outsource</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="training.html">Training Partner</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav><!-- /.main-header__nav -->
+        </div>
+
+        <div class="main-header__link">
+            <a class="main-header__btn" href="contact.html">Book <br> Appointment</a>
+        </div>
+
+        <!-- Mobile Navigation Button -->
+        <div class="mobile-nav__btn mobile-nav__toggler" onclick="toggleMobileMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div><!-- /.mobile-nav__toggler -->
+    </div>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav">
+        <nav class="mobile-nav__menu">
+            <ul>
+                <li><a href="index-3.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="manpower.html">Manpower Outsource</a></li>
+                <li><a href="training.html">Training Partner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<script>
+    function toggleMobileMenu() {
+if (window.innerWidth <= 768) { // Only run on mobile view
+document.querySelector('.mobile-nav').classList.toggle('open');
+document.querySelector('.mobile-nav__toggler').classList.toggle('active');
+}
+}
+
+</script>

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team || AS INFOTECH</title>
+    
+    <!-- Include all the existing CSS files from other pages -->
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendors/hiredots-icons/style.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/hiredots.css">
+
+    </head>
+<body class="custom-cursor">
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+    <div class="preloader">
+        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+    </div>
+    
+    
+        <!-- Header -->
+        <header class="main-header main-header--two sticky-header sticky-header--normal">
+            <div class="main-header__inner">
+                <div class="main-header__logo">
+                    <a href="index-3.html">
+                        <img src="assets/images/logo.png" alt="AS Infotech" width="235">
+                    </a>
+                </div><!-- /.main-header__logo -->
+        
+                <div class="main-header__menu">
+                    <nav class="main-header__nav main-menu">
+                        <ul class="main-menu__list">
+                            <li class="dropdown">
+                                <a href="index-3.html">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="about.html">About Us</a>
+                                <ul>
+                                    <li><a href="company.html">Company profile</a></li>
+                                    <li><a href="vision.html">Vision </a></li>
+                                    <li><a href="mission.html">Mission</a></li>
+                                    <li><a href="team.html">Our Team</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="services.html">Services</a>
+                                <ul>
+                                    <li><a href="comphardware.html">Computer Hardware & Operating System Solution</a></li>
+                                    <li><a href="compnetworking.html">Computer Networking Solution</a></li>
+                                    <li><a href="cloudcomputing.html">Cloud Computing Solution</a></li>
+                                    <li><a href="cctv.html">CCTV Installation</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="clients.html">Clients</a></li>
+                            <li class="dropdown">
+                                <a href="manpower.html">Manpower Outsource</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="training.html">Training Partner</a>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav><!-- /.main-header__nav -->
+                </div>
+        
+                <div class="main-header__link">
+                    <a class="main-header__btn" href="contact.html">Book <br> Appointment</a>
+                </div>
+        
+                <!-- Mobile Navigation Button -->
+                <div class="mobile-nav__btn mobile-nav__toggler" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div><!-- /.mobile-nav__toggler -->
+            </div>
+        
+            <!-- Mobile Navigation Menu -->
+            <div class="mobile-nav">
+                <nav class="mobile-nav__menu">
+                    <ul>
+                        <li><a href="index-3.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="clients.html">Clients</a></li>
+                        <li><a href="manpower.html">Manpower Outsource</a></li>
+                        <li><a href="training.html">Training Partner</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <script>
+            function toggleMobileMenu() {
+        if (window.innerWidth <= 768) { // Only run on mobile view
+        document.querySelector('.mobile-nav').classList.toggle('open');
+        document.querySelector('.mobile-nav__toggler').classList.toggle('active');
+        }
+        }
+        
+        </script>
+    
+        <!-- Hero Section -->
+        <section class="page-header">
+            <div class="page-header__bg"></div>
+            <div class="page-header__shape"><img src="assets/images/shapes/page-header-shape.png" alt="hiredots"></div>
+            <div class="container">
+                <h2 class="page-header__title">Our Team</h2>
+                <ul class="hiredots-breadcrumb list-unstyled">
+                    <li><a href="index-3.html">Home</a></li>
+                    <li><span>Our Team</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section style="padding: 120px 0; background-color: #f8f9fa;">
+            <div class="container">
+                <div class="sec-title text-center" style="margin-bottom: 60px;">
+                    <h6 style="color: #00cde5; font-size: 16px; text-transform: uppercase; margin-bottom: 20px;">THE TEAM</h6>
+                    <h2 style="font-size: 42px; color: #0b182a; font-weight: 800;">Leadership & Key Members</h2>
+                </div>
+                
+                <div class="row">
+                    <!-- Team Member 1 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-card">
+                            <div class="team-image">
+                                <img src="assets/images/team/team-1.jpg" alt="Team Member">
+                            </div>
+                            <div class="team-content">
+                                <h3 class="team-name">John Doe</h3>
+                                <p class="team-position">CEO & Founder</p>
+                                <div class="team-social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Member 2 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-card">
+                            <div class="team-image">
+                                <img src="assets/images/team/team-2.jpg" alt="Team Member">
+                            </div>
+                            <div class="team-content">
+                                <h3 class="team-name">Sarah Johnson</h3>
+                                <p class="team-position">Technical Director</p>
+                                <div class="team-social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Member 3 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-card">
+                            <div class="team-image">
+                                <img src="assets/images/team/team-3.jpg" alt="Team Member">
+                            </div>
+                            <div class="team-content">
+                                <h3 class="team-name">Mike Wilson</h3>
+                                <p class="team-position">Network Engineer</p>
+                                <div class="team-social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Member 4 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-card">
+                            <div class="team-image">
+                                <img src="assets/images/team/team-4.jpg" alt="Team Member">
+                            </div>
+                            <div class="team-content">
+                                <h3 class="team-name">Emily Brown</h3>
+                                <p class="team-position">Support Specialist</p>
+                                <div class="team-social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="main-footer" style="background-color: #0b182a; padding: 60px 0 0 0;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <img src="assets/images/logo.png" alt="AS INFOTECH" width="200" style="margin-bottom: 20px;">
+                        <p style="color: #fff; font-size: 16px; line-height: 1.6; margin-bottom: 25px;">
+                            Leading IT Solutions Provider specializing in hardware solutions, networking, cloud computing, and CCTV installation.
+                        </p>
+                        <div class="social-links" style="display: flex; gap: 15px;">
+                            <a href="#" style="color: #00cde5;"><i class="fab fa-twitter"></i></a>
+                            <a href="#" style="color: #00cde5;"><i class="fab fa-facebook"></i></a>
+                            <a href="#" style="color: #00cde5;"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" style="color: #00cde5;"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-6 col-md-6">
+                        <h3 style="color: #fff; font-size: 24px; margin-bottom: 25px;">Quick Links</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 15px;"><a href="about.html" style="color: #fff; text-decoration: none;">About Us</a></li>
+                            <li style="margin-bottom: 15px;"><a href="services.html" style="color: #fff; text-decoration: none;">Our Services</a></li>
+                            <li style="margin-bottom: 15px;"><a href="project.html" style="color: #fff; text-decoration: none;">Projects</a></li>
+                            <li style="margin-bottom: 15px;"><a href="contact.html" style="color: #fff; text-decoration: none;">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <h3 style="color: #fff; font-size: 24px; margin-bottom: 25px;">Contact</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 15px; color: #fff;">
+                                <i class="icon-telephone" style="color: #00cde5; margin-right: 10px;"></i>
+                                <a href="tel:+917289815525" style="color: #fff; text-decoration: none;">+ 91 7289815525</a>
+                            </li>
+                            <li style="margin-bottom: 15px; color: #fff;">
+                                <i class="icon-email" style="color: #00cde5; margin-right: 10px;"></i>
+                                <a href="mailto:asinfotech@gmail.com" style="color: #fff; text-decoration: none;">asinfotech@gmail.com</a>
+                            </li>
+                            <li style="margin-bottom: 15px; color: #fff;">
+                                <i class="icon-pin" style="color: #00cde5; margin-right: 10px;"></i>
+                                SA-9 SHASTRI NAGAR, GHAZIABAD, UTTAR PRADESH
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <h3 style="color: #fff; font-size: 24px; margin-bottom: 25px;">Newsletter</h3>
+                        <div style="position: relative;">
+                            <input type="email" placeholder="Email Address" style="width: 100%; padding: 12px; background: transparent; border: 1px solid #00cde5; color: #fff; border-radius: 5px;">
+                            <button style="position: absolute; right: 5px; top: 50%; transform: translateY(-50%); background: #00cde5; border: none; width: 40px; height: 40px; border-radius: 5px; cursor: pointer;">
+                                <i class="icon-right-arrow" style="color: #fff;"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.1); margin-top: 60px; padding: 20px 0; text-align: center;">
+                <div class="container">
+                    <p style="color: #fff; margin: 0;">© 2024 AS INFOTECH, All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="assets/js/hiredots.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Mobile Menu Toggle
+            $('.mobile-nav-toggler').click(function(e) {
+                e.stopPropagation();
+                $('.mobile-menu').toggleClass('active');
+                $('body').toggleClass('mobile-menu-visible');
+            });
+
+            // Mobile dropdown toggle
+            $('.mobile-menu .dropdown-btn').click(function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                $(this).parent().toggleClass('active');
+            });
+
+            // Close menu when clicking outside
+            $(document).on('click', function(e) {
+                if (!$(e.target).closest('.mobile-menu, .mobile-nav-toggler').length) {
+                    $('.mobile-menu').removeClass('active');
+                    $('body').removeClass('mobile-menu-visible');
+                }
+            });
+
+            // Adjust menu on resize
+            $(window).resize(function() {
+                if ($(window).width() > 991) {
+                    $('.mobile-menu').removeClass('active');
+                    $('body').removeClass('mobile-menu-visible');
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
